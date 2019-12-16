@@ -1,2 +1,4 @@
-# autonomous-surveillance-drone
-Autonomous Surveillance Drone - USN Kongsberg
+# asd
+Autonomous Surveillance Drone
+
+University project in creating a drone

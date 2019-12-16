@@ -1,0 +1,5 @@
+<launch>
+  <node name="camera" pkg="camera" type="camera" output="screen" respawn="false">
+    <param name="video_source" value="/dev/video0" />
+  </node>
+</launch>

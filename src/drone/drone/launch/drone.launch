@@ -1,0 +1,7 @@
+<launch>
+  <include file="$(find drone)/launch/dronebase.launch" />
+  <node name="gear_node" pkg="drone" type="gear_node" args="/dev/ttyUSB0">
+    <param name="serial_port" value="/dev/ttyACM0" />
+  </node>
+  <node name="controller_node" pkg="drone" type="controller_node" />
+</launch>

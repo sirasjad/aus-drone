@@ -1,0 +1,6 @@
+<launch>
+  <node name="controller_driver" pkg="c2" type="joystick_driver" output="screen" respawn="true" respawn_delay="2" />
+  <node name="pythonbridge_in" pkg="image_transport" type="republish" args="theora in:=/drone/livefeed raw out:=/drone/rawlivefeed />
+  <node name="object_detector" pkg="object_detector" type="object_detector.py" output="screen" />
+  <node name="pythonbridge_in" pkg="image_transport" type="republish" args="theora in:=/drone/livefeed raw out:=/drone/detectorfeed />
+</launch>

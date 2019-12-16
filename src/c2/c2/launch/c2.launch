@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find c2)/launch/c2nogui.launch" />
+  <node name="gui" pkg="gui" type="gui" output="screen" respawn="true" respawn_delay="3" />
+</launch>
