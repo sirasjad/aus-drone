@@ -2,7 +2,10 @@
 Blog/documentation: http://dronesonen.usn.no/?author=67 <br>
 DFSS3101-19H Smart Systems, USN Kongsberg
 
-#### Developed by:<br>
+#### Components:
+* TBA
+
+#### Developed by:
 * Sirajuddin Asjad (Computer engineer)<br>
 * Håkon Jordet (Computer engineer)<br>
 * Kristian Klev (Mechanical engineer)
